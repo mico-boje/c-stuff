@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+requires a redirected file, e.g:
+./bin/scan_file.exe < Phrack#7 
+*/
+
 int main(void) {
     int blanks = 0, digits = 0, letters = 0, others = 0;
     int c; // used for int value of character
